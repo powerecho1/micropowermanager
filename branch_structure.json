@@ -1,0 +1,33 @@
+{
+  "default_branch": "whatsapp-notifications",
+  "branches": [
+    "docs/whatsapp-plugin-docs",
+    "fix/fix-cors",
+    "origin",
+    "whatsapp-notifications",
+    "whatsapp/backend",
+    "whatsapp/message-variable-data-context",
+    "whatsapp/transactional-notifications",
+    "whatsapp/webhooks-testing"
+  ],
+  "parent": {
+    "docs/whatsapp-plugin-docs": "whatsapp-notifications",
+    "fix/fix-cors": "whatsapp-notifications",
+    "origin": "whatsapp-notifications",
+    "whatsapp-notifications": null,
+    "whatsapp/backend": "whatsapp-notifications",
+    "whatsapp/message-variable-data-context": "whatsapp-notifications",
+    "whatsapp/transactional-notifications": "whatsapp-notifications",
+    "whatsapp/webhooks-testing": "whatsapp-notifications"
+  },
+  "order": [
+    "whatsapp-notifications",
+    "docs/whatsapp-plugin-docs",
+    "fix/fix-cors",
+    "origin",
+    "whatsapp/backend",
+    "whatsapp/message-variable-data-context",
+    "whatsapp/transactional-notifications",
+    "whatsapp/webhooks-testing"
+  ]
+}
